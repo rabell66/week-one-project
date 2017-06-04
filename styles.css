@@ -1,0 +1,162 @@
+#site_header {
+    background-color: white;
+}
+
+body {
+    background-color: #F2F1E8;
+    max-width: 1280px;
+    margin: auto
+}
+
+img {
+    position: fixed;
+    z-index: 1;
+    width: 3.5%;
+    left: 20px;
+    top: 8px;
+}
+
+#site_header {
+    position: fixed;
+    display: flex;
+    top: -15px;
+    padding: 10px 0px
+}
+
+.NavBar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0 28rem;
+    font-family: "Roboto";
+    font-size: large;
+    z-index:1;
+}
+#nav{padding: 0px 20px; 
+     margin: 0px 10px;
+
+ 
+
+}
+
+li a:hover {
+    color: #CD5D67;
+}
+
+li a:active {
+    color: #968772
+}
+
+li a {
+    color: #2B2F26;
+}
+
+
+/*End Nav Bar*/
+
+#page_content {
+    text-align: center;
+}
+
+#page_content h1 {
+    padding: 43px 0 0 0;
+    font-size: 74px;
+    
+}
+
+#page_content h3 {
+
+    font-size: 42px;
+    font-family: "Roboto";
+    margin: -48px 0 50px;
+}
+
+
+
+#box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 400px;
+    margin: 2rem;
+}
+
+#box p {
+    background-color: #2B2F26;
+    color: #D2D0B7;
+    font-size: x-large;
+    margin-top: 333px;
+    display: inline-block;
+}
+
+#first-img {
+    background: url("images/product-1.jpg");
+    background-size: cover;
+    flex-grow: 2;
+}
+
+#second-img {
+    background-image: url("images/product-2.jpg");
+    background-size: cover;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+#third-img {
+    background-image: url("images/product-3.jpg");
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#boxes {
+    display: flex;
+    justify-content: row;
+    height: 200px;
+    margin: 2rem;
+}
+
+#boxes p {
+    background-color: #2B2F26;
+    color: #D2D0B7;
+    font-size: x-large;
+    margin-top: 140px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#fourth-img {
+    background: url("images/product-4.jpg");
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#fifth-img {
+    background: url("images/product-5.jpg");
+    background-size: cover;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+#sixth-img {
+    background: url("images/product-6.jpg");
+    background-size: cover;
+    flex-grow: 2;
+    margin-right: 15px;
+    ;
+}
+
+#seventh-img {
+    flex-grow: 1;
+    background: url("images/product-7.jpg");
+background-size:cover;
+}
+
+
+footer {
+    background-color: #2B2F26;
+    width: auto;
+    padding: 50px;
+    color: #F2F1E8;
+    font-size: x-large;
+}

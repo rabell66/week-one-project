@@ -1,0 +1,144 @@
+#site_header {
+    background-color: white;
+    width:100%;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    min-height: 100%;
+    background-image: url("../images/background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;}
+img {
+    position: fixed;
+    width: 3.5%;
+    left: 20px;
+    top: 8px;
+    z-index: 2;
+}
+
+#site_header {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    top: -15px;
+    padding: 10px 0;
+}
+
+.NavBar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0 29rem;
+    font-family: "Roboto";
+    font-size: large;
+}
+
+#nav {
+    padding: 0px 20px;
+    margin: 0 10px;
+}
+
+li a:hover {
+    color: #CD5D67;
+}
+
+li a:active {
+    color: #968772;
+}
+
+li a {
+    color: #2B2F26;
+}
+
+
+/*End Nav Bar*/
+
+#sign-up {
+    z-index: 0;
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin: 8rem 0px 0px 0rem;
+    padding: 2rem 1rem 1rem;
+    background-color: white;
+    flex-direction: column;
+    font-family: "Roboto";
+    font-size: large;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-align: center;
+    margin: -6px 0 55px 0;
+}
+
+.boxes {
+    height: 36px;
+    margin: -17px 0 15px;
+    padding: 0px 0 1px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 1px 0;
+    border-color: #968772;
+}
+
+input:focus {
+    border-color:#967343;
+    ;
+}
+
+#nameInput {
+    width: 100%;
+    font-size: large;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+
+#emailInput {
+    width: 100%;
+    font-size: large;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signupButton {
+    text-align: center;
+    background-color: #968772;
+    border: 0px solid;
+    margin: 2rem 16rem;
+    color: #967343;
+    padding: 14px 25px;
+    font-size: large;
+    width:100px;
+    
+}
+
+#signupButton:hover {
+    background-color: #967343;
+}
+
+#signupButton:hover {
+    color: #FFFFFF;
+}
